@@ -10,5 +10,5 @@ Add the font to your project folder and "#include" the font.
 // Call the font using related framework function
 // Most common way is to load the font binary at memory
 // imgui example :
-io.Fonts->AddFontFromMemoryTTF(Ubuntu_Regular, 24, 14px);
+io.Fonts->AddFontFromMemoryTTF(Ubuntu_Regular, array_size_int, font_size_float);
 ```
